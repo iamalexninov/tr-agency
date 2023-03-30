@@ -1,17 +1,73 @@
+.destination {
+  padding-block: 30px;
+}
+
 .h2 {
   width: 60%;
   text-align: left;
+  margin-bottom: 5px;
 }
 
-.destination-text {
+.popular-text {
   font-size: var(--fs-6);
+  color: var(--gray);
+  margin-bottom: 25px;
 }
 
-.destination-card {
+.popular-list li{
+    margin-bottom: 30px;
+}
+
+.popular-card {
   position: relative;
 }
 
-.card-poster {
+.card-img {
   width: 100%;
+  min-height: 350px;
   border-radius: 15px;
+}
+
+.card-rating {
+  position: absolute;
+  top: 175px;
+  right: 40px;
+  gap: 1px;
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 15px;
+  color: var(--white);
+  background: var(--primary);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 2;
+}
+
+.card-content {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  border-radius: 15px;
+  background-color: var(--white);
+  padding: 20px;
+  z-index: 1;
+}
+
+.card-country {
+    text-transform: uppercase;
+  font-size: var(--fs-7);
+  margin-bottom: 5px;
+  color: var(--primary);
+}
+
+.card-town {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: var(--fs-7);
+  color: var(--gray);
 }

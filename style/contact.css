@@ -1,0 +1,19 @@
+.contact {
+  padding-block: 40px;
+  margin-top: 50px;
+  background: var(--primary);
+}
+
+.contact-title,
+.contact-text {
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  font-size: var(--fs-7);
+}
+
+.btn-contact {
+  width: 50%;
+}

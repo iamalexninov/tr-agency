@@ -6,14 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Onin Travel Agency</title>
-    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    <!-- learn about data attribute -->
     <header class="header" data-header>
         <div class="overlay" data-overlay></div>
         <div class="header-top">
@@ -428,8 +426,47 @@
         </section>
 
     </main>
-    <footer>
-        
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-text">
+                <img src="/images/logo-blue.svg" alt="Logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel iure modi vero praesentium quisquam qui
+                    ipsam! Provident quam repellat praesentium. </p>
+            </div>
+            <div class="footer-contact">
+                <p class="footer-title">Contact Us</p>
+                <div class="line"></div>
+                <p class="contact-content">Feel free to contact and reach us!</p>
+                <ul class="footer-list">
+                    <li class="contact-element">
+                        <ion-icon name="call-outline" role="img" class="md hydrated"
+                            aria-label="call outline"></ion-icon>
+                        <a href="tel:+359 8693 598 611">+359 8693 598 611</a>
+                    </li>
+                    <li class="contact-element">
+                        <ion-icon name="mail-outline" role="img" class="md hydrated"
+                            aria-label="mail outline"></ion-icon>
+                        <a href="mailto:info@onin.com">info@onin.com</a>
+                    </li>
+                    <li class="contact-element">
+                        <ion-icon name="location-outline" role="img" class="md hydrated"
+                            aria-label="location outline"></ion-icon>
+                        <a href="">Pazardjik Bul. Bulgaria, №8</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="subscribe">
+                <p>Subscribe our newsletter for more update & news!</p>
+                <input type="text" name="Subscribe" placeholder="Enter your email">
+                <button class="btn btn-secondary">Subscribe</button>
+            </div>
+            <ul class="footer-privacy">
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Term & Condition</a></li>
+                <li><a href="">FAQ</a></li>
+            </ul>
+        </div>
     </footer>
 
     <script src="/js/script.js"></script>

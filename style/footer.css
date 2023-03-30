@@ -1,0 +1,78 @@
+.footer {
+  padding-block: 30px;
+  background: var(--secondary);
+  color: var(--white);
+}
+
+.footer-text img {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.footer-text p {
+  font-size: var(--fs-6);
+  margin-bottom: 15px;
+}
+
+.footer-contact .footer-title {
+  font-size: var(--fs-4);
+  margin-bottom: 3px;
+}
+
+.footer-contact .contact-content {
+  font-size: var(--fs-6);
+  margin-bottom: 10px;
+}
+
+.footer-list {
+  margin-bottom: 15px;
+}
+
+.contact-element {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 8px;
+}
+
+.contact-element a {
+  color: var(--white);
+  font-size: var(--fs-7);
+}
+
+.footer-contact .line {
+  height: 2px;
+  background: var(--primary);
+  width: 20%;
+  margin-bottom: 15px;
+}
+
+.subscribe p {
+  font-size: var(--fs-5);
+  margin-bottom: 15px;
+}
+
+.subscribe input {
+  outline: none;
+  padding: 10px;
+  font-size: var(--fs-6);
+  background: var(--white);
+  border-radius: 50px;
+  border: none;
+}
+
+.subscribe button {
+  margin-bottom: 35px;
+}
+
+.footer-privacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-privacy li a {
+  color: var(--white);
+  font-size: var(--fs-7);
+}

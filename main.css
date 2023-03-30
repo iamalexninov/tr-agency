@@ -1,17 +1,19 @@
 @import url(/style/reset.css);
 @import url(/style/reuse.css);
 @import url(/style/header.css);
-@import url(/style/hero.css);
-@import url(/style/inquire.css);
-@import url(/style/destination.css);
-@import url(/style/packages.css);
-@import url(/style/contact.css);
-@import url(/style/gallery.css);
+@import url(/style/sections/hero.css);
+@import url(/style/sections/contact.css);
+@import url(/style/sections/inquire.css);
+@import url(/style/sections/destination.css);
+@import url(/style/sections/packages.css);
+@import url(/style/sections/contact.css);
+@import url(/style/sections/gallery.css);
+@import url(/style/footer.css);
 
 :root {
   /* Colors */
   --primary: #43adf7;
-  --secondary: #061b36;
+  --secondary: #223544;
   --black: #000;
   --white: #fff;
   --cultured: #fafafa;

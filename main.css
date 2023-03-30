@@ -6,11 +6,12 @@
 @import url(/style/destination.css);
 @import url(/style/packages.css);
 @import url(/style/contact.css);
+@import url(/style/gallery.css);
 
 :root {
   /* Colors */
-  --primary: #012fa7;
-  --secondary: #223544;
+  --primary: #43adf7;
+  --secondary: #061b36;
   --black: #000;
   --white: #fff;
   --cultured: #fafafa;

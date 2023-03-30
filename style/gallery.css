@@ -1,0 +1,27 @@
+.gallery {
+  margin-top: 15px;
+  padding-block: 30px;
+}
+
+.gallery-title{
+    margin-bottom: 15px;
+}
+
+.gallery-text{
+    margin-bottom: 15px;
+    font-size: var(--fs-6);
+    color: var(--gray);
+}
+
+.gallery-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}

@@ -20,7 +20,7 @@
 
 .header.active .header-top {
   position: fixed;
-  background:var(--white);
+  background:var(--secondary);
 }
 
 .header-top .container {

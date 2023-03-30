@@ -1,0 +1,41 @@
+@import url(/style/reset.css);
+@import url(/style/reuse.css);
+@import url(/style/header.css);
+@import url(/style/hero.css);
+@import url(/style/inquire.css);
+@import url(/style/destination.css);
+
+:root {
+  /* Colors */
+  --primary: #012fa7;
+  --secondary: #223544;
+  --third: #8ecae6;
+  --black: #000;
+  --white: #fff;
+  --cultured: #fafafa;
+  --gray: #808080;
+
+  /* Typography */
+  --ff-poppins: "Poppins", sans-serif;
+
+  /* Size */
+  --fs-1: calc(20px + 3.5vw);
+  --fs-2: calc(18px + 1.6vw);
+  --fs-3: calc(16px + 0.45vw);
+  --fs-4: 15px;
+  --fs-5: 14px;
+  --fs-6: 13px;
+  --fs-7: 12px;
+  --fs-8: 11px;
+
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+
+  /* Spacing */
+  --section-padding: 60px;
+
+  /* Transition */
+  --transition: 0.25s ease-in-out;
+}

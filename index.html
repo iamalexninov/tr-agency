@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onin Travel Agency</title>
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- learn about data attribute -->
+    <header class="header" data-header>
+        <div class="overlay" data-overlay></div>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-btn-group">
+                    <button class="search-btn" aria-label="Search" data-nav-search-btn>
+                        <ion-icon name="search"></ion-icon>
+                    </button>
+
+                    <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-tiktok"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                <nav class="navbar" data-navbar>
+                    <div class="navbar-top">
+                        <a href="#" class="logo">
+                            <img src="/images/logo-blue.svg" alt="Logo" />
+                        </a>
+
+                        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                            <ion-icon name="close"></ion-icon>
+                        </button>
+                    </div>
+
+                    <ul class="navbar-list">
+                        <li>
+                            <a href="#" class="navbar-link" data-nav-link> home </a>
+                        </li>
+                        <li>
+                            <a href="#destination" class="navbar-link" data-nav-link> destination </a>
+                        </li>
+                        <li>
+                            <a href="#packages" class="navbar-link" data-nav-link> packages </a>
+                        </li>
+                        <li>
+                            <a href="#gallery" class="navbar-link" data-nav-link> gallery </a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="navbar-link" data-nav-link> contact us </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button class="btn btn-primary">Book Now</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2 class="h1 hero-title">Explore the world</h2>
+
+                <p class="hero-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+                    magnam! Aliquid modi facere culpa expedita possimus nobis, non
+                    doloremque vel.
+                </p>
+                <button class="btn btn-primary">Learn more</button>
+            </div>
+        </section>
+
+        <section id="inquire" class="inquire">
+            <div class="container">
+                <form class="book-form">
+                    <label for="destination">Search Destination</label>
+                    <input type="text" id="destination" placeholder="Enter Destination" />
+                    <label for="pax-number">Pax Number</label>
+                    <input type="text" id="pax-number" placeholder="No.of People" />
+                    <label for="check-in">CheckIn Date</label>
+                    <input type="date" id="check-in" />
+                    <label for="check-out">CheckOut Date</label>
+                    <input type="date" id="check-out" />
+                </form>
+                <button class="btn btn-secondary">
+                    inquire now
+                </button>
+            </div>
+        </section>
+
+        <section id="destination" class="destination">
+            <div class="container">
+                <h2 class="h2">popular destination</h2>
+                <p class="destination-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quas incidunt est amet nemo,
+                    perferendis illum distinctio.</p>
+                <div class="destination-card">
+                    <img class="card-poster" src="/images/popular-1.jpg" alt="San Miguel">
+                    <div class="destination-rate"></div>
+                    <div class="card-text">
+                        <span class="country">Italy</span>
+                        <h3 class="h3 town">san miguel</h3>
+                        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. ?</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <div class="destination-rate"></div>
+                    <div class="card-text">
+                        <span class="country">Japan</span>
+                        <h3 class="h3 town">kyoto temple</h3>
+                        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. ?</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <div class="destination-rate"></div>
+                    <div class="card-text">
+                        <span class="country">Dubai</span>
+                        <h3 class="h3 location">butj khalifa</h3>
+                        <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. ?</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

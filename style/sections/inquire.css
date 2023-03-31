@@ -4,22 +4,35 @@
 }
 
 .book-form label {
-  margin-top: 12px;
   padding-inline-start: 10px;
   color: var(--white);
 }
 
-.book-form input {
+.book-form .field {
   outline: none;
   padding: 8px;
-  margin-top: 12px;
   font-size: var(--fs-6);
   color: var(--gray);
   border-radius: 50px;
   background: var(--white);
+  margin-block: 10px;
 }
 
-.btn-secondary {
+.btn-inquire {
   width: 100%;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 580px) {
+  .inquire{
+    padding-block: 50px;
+  }
+  .book-form label {
+    font-size: 20px;
+  }
+
+  .book-form .field{
+    font-size: 14px;
+    padding: 12px;
+  }
 }

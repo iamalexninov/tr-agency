@@ -91,7 +91,9 @@
                     </ul>
                 </nav>
 
-                <button class="btn btn-primary">Book Now</button>
+                <div class="btn-book">
+                    <button class="btn btn-primary">Book Now</button>
+                </div>
             </div>
         </div>
     </header>
@@ -114,15 +116,15 @@
             <div class="container">
                 <form class="book-form">
                     <label for="destination">Search Destination</label>
-                    <input type="text" id="destination" placeholder="Enter Destination" />
+                    <input class="field" type="text" id="destination" placeholder="Enter Destination" />
                     <label for="pax-number">Pax Number</label>
-                    <input type="text" id="pax-number" placeholder="No.of People" />
+                    <input class="field" type="text" id="pax-number" placeholder="No.of People" />
                     <label for="check-in">CheckIn Date</label>
-                    <input type="date" id="check-in" />
+                    <input class="field" type="date" id="check-in" />
                     <label for="check-out">CheckOut Date</label>
-                    <input type="date" id="check-out" />
+                    <input class="field" type="date" id="check-out" />
                 </form>
-                <button class="btn btn-secondary">inquire now</button>
+                <button class="btn btn-secondary btn-inquire">inquire now</button>
             </div>
         </section>
 
@@ -137,12 +139,6 @@
                     <li>
                         <div class="popular-card">
                             <img class="card-img" src="/images/popular-1.jpg" alt="San Miguel" />
-                            <div class="card-rating">
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                            </div>
                             <div class="card-popular-content">
                                 <span class="card-country">italy</span>
                                 <h3 class="h3 card-town">san miguel</h3>
@@ -156,13 +152,6 @@
                     <li>
                         <div class="popular-card">
                             <img class="card-img" src="/images/popular-2.jpg" alt="Burj Khalifa" />
-                            <div class="card-rating">
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                            </div>
                             <div class="card-popular-content">
                                 <span class="card-country">dubai</span>
                                 <h3 class="h3 card-town">burj khalifa</h3>
@@ -176,12 +165,6 @@
                     <li>
                         <div class="popular-card">
                             <img class="card-img" src="/images/popular-3.jpg" alt="San Miguel" />
-                            <div class="card-rating">
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                                <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
-                            </div>
                             <div class="card-popular-content">
                                 <span class="card-country">japan</span>
                                 <h3 class="h3 card-town">san miguel</h3>
@@ -201,7 +184,7 @@
         <section id="packages" class="packages">
             <div class="container">
                 <h2 class="h2">checkout our packages</h2>
-                <p class="popular-text">
+                <p class="package-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
                     quas incidunt est amet nemo, perferendis illum distinctio.
                 </p>

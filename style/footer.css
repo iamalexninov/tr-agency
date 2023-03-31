@@ -6,12 +6,11 @@
 
 .footer-text img {
   width: 150px;
-  margin-bottom: 15px;
 }
 
 .footer-text p {
   font-size: var(--fs-6);
-  margin-bottom: 15px;
+  margin-block: 15px;
 }
 
 .footer-contact .footer-title {
@@ -21,11 +20,7 @@
 
 .footer-contact .contact-content {
   font-size: var(--fs-6);
-  margin-bottom: 10px;
-}
-
-.footer-list {
-  margin-bottom: 15px;
+  margin-block: 15px;
 }
 
 .contact-element {
@@ -44,12 +39,10 @@
   height: 2px;
   background: var(--primary);
   width: 20%;
-  margin-bottom: 15px;
 }
 
 .subscribe p {
   font-size: var(--fs-5);
-  margin-bottom: 15px;
 }
 
 .subscribe input {
@@ -59,10 +52,11 @@
   background: var(--white);
   border-radius: 50px;
   border: none;
+  margin-block: 10px;
 }
 
 .subscribe button {
-  margin-bottom: 35px;
+  width: 100%;
 }
 
 .footer-privacy {
@@ -70,6 +64,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-block: 20px;
 }
 
 .footer-privacy li a {
@@ -104,4 +99,36 @@
 
 .go-top ion-icon {
   font-size: var(--fs-3);
+}
+
+@media screen and (min-width: 580px) {
+  .footer-text p,
+  .footer-contact .contact-content,
+  .subscribe p {
+    font-size: 16px;
+  }
+
+  .footer-contact .footer-title {
+    font-size: 20px;
+  }
+
+  .contact-element ion-icon {
+    font-size: 25px;
+  }
+
+  .contact-element a {
+    font-size: 16px;
+  }
+
+  .subscribe input {
+    font-size: 16px;
+  }
+
+  .footer-privacy li a {
+    font-size: 16px;
+  }
+
+  .go-top ion-icon {
+    font-size: 25px;
+  }
 }

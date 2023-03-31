@@ -1,19 +1,29 @@
 .contact {
   padding-block: 40px;
-  margin-top: 50px;
   background: var(--primary);
 }
 
 .contact-title,
 .contact-text {
   color: var(--white);
-  margin-bottom: 20px;
 }
 
 .contact-text {
   font-size: var(--fs-7);
+  margin-block: 15px;
 }
 
 .btn-contact {
   width: 50%;
+}
+
+@media screen and (min-width: 580px) {
+  .contact-title{
+    line-height: 30px;
+  }
+
+  .contact-text {
+    margin-block: 20px;
+    font-size: 16px;
+  }
 }

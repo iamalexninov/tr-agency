@@ -9,7 +9,6 @@
   place-items: center;
   min-height: 600px;
   text-align: center;
-  padding-top: 80px;
 }
 
 .hero-text {
@@ -19,4 +18,19 @@
 
 .btn-primary {
   margin: 0 auto;
+}
+
+@media screen and (min-width: 580px) {
+  .hero {
+    min-height: 800px;
+  }
+
+  .hero-title {
+    margin-top: 50px;
+  }
+
+  .hero-text {
+    margin-block: 30px;
+    font-size: 20px;
+  }
 }

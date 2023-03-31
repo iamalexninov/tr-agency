@@ -5,8 +5,7 @@
 .popular-text {
   font-size: var(--fs-6);
   color: var(--gray);
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-block: 15px;
 }
 
 .popular-list li {
@@ -21,21 +20,6 @@
   width: 100%;
   min-height: 350px;
   border-radius: 15px;
-}
-
-.card-rating {
-  position: absolute;
-  top: 175px;
-  right: 40px;
-  gap: 1px;
-  display: flex;
-  align-items: center;
-  padding: 6px 10px;
-  border-radius: 15px;
-  color: var(--white);
-  background: var(--primary);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  z-index: 2;
 }
 
 .card-popular-content {
@@ -53,16 +37,42 @@
 .card-country {
   text-transform: uppercase;
   font-size: var(--fs-7);
-  margin-bottom: 5px;
   color: var(--primary);
 }
 
 .card-town {
-  margin-bottom: 5px;
   font-size: 16px;
+  margin-block: 5px;
 }
 
 .card-text {
   font-size: var(--fs-7);
   color: var(--gray);
+}
+
+@media (min-width: 580px) {
+  .destination {
+    padding-block: 50px;
+    text-align: center;
+  }
+
+  .destination .popular-text{
+    font-size: 16px;
+    margin-block: 20px;
+  }
+
+  .popular-list li .popular-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-popular-content {
+    width: 50%;
+  }
+
+  .card-img {
+    width: 60%;
+    min-height: 350px;
+    border-radius: 15px;
+  }
 }

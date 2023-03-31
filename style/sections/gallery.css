@@ -1,22 +1,17 @@
 .gallery {
-  margin-top: 15px;
   padding-block: 30px;
 }
 
-.gallery-title{
-    margin-bottom: 15px;
-}
-
-.gallery-text{
-    margin-bottom: 15px;
-    font-size: var(--fs-6);
-    color: var(--gray);
+.gallery-text {
+  font-size: var(--fs-6);
+  color: var(--gray);
+  margin-block: 15px;
 }
 
 .gallery-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 5px;
 }
 
 .gallery-item img {
@@ -24,4 +19,15 @@
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
+}
+
+@media screen and (min-width: 580px) {
+  .gallery {
+    text-align: center;
+  }
+
+  .gallery-text {
+    font-size: 16px;
+    margin-block: 20px;
+  }
 }

@@ -2,6 +2,12 @@
   padding-block: 30px;
 }
 
+.package-text {
+  font-size: var(--fs-6);
+  margin-block: 15px;
+  color: var(--gray);
+}
+
 .card-banner img {
   width: 100%;
   min-height: 200px;
@@ -15,13 +21,13 @@
 }
 
 .card-package-text {
-  margin-block: 15px;
   font-size: var(--fs-7);
   color: var(--black);
+  margin-block: 10px;
 }
 
-.package-list .package-item{
-  margin-bottom: 35px;
+.package-list .package-item {
+  margin-bottom: 30px;
 }
 
 .card-list {
@@ -64,7 +70,6 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin-bottom: 15px;
 }
 
 .card-review-rating {
@@ -73,17 +78,35 @@
 }
 
 .price {
-  font-size: var(--fs-3);
+  font-size: var(--fs-2);
   font-weight: var(--fw-800);
+  margin-block: 10px;
 }
 
 .person {
   font-size: var(--fs-5);
   font-weight: var(--fw-500);
-  margin-bottom: 25px;
 }
 
 .btn-review {
   margin: 0 auto;
   width: 50%;
+}
+
+@media screen and (min-width: 580px) {
+  .packages {
+    text-align: center;
+  }
+
+  .packages .package-text {
+    font-size: 16px;
+    margin-block: 20px;
+  }
+
+  .package-item .package-card {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+  }
 }

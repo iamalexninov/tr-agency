@@ -4,6 +4,7 @@ const navbar = document.querySelector("[data-navbar]");
 const navCloseBtn = document.querySelector("[data-nav-close-btn]");
 const navLinks = document.querySelectorAll("[data-nav-link]");
 const header = document.querySelector("[data-header]");
+const goToBtn = document.querySelector("[data-go-top]");
 
 const navElementArr = [navOpenBtn, navCloseBtn, overlay];
 
@@ -22,7 +23,9 @@ navToggleEvent(navLinks);
 window.addEventListener("scroll", (e) => {
   if (window.scrollY >= 200) {
     header.classList.add("active");
+    goToBtn.classList.add("active");
   } else {
     header.classList.remove("active");
+    goToBtn.classList.remove("active");
   }
 });

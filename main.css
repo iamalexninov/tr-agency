@@ -2,12 +2,11 @@
 @import url(/style/reuse.css);
 @import url(/style/header.css);
 @import url(/style/sections/hero.css);
-@import url(/style/sections/contact.css);
 @import url(/style/sections/inquire.css);
 @import url(/style/sections/destination.css);
 @import url(/style/sections/packages.css);
-@import url(/style/sections/contact.css);
 @import url(/style/sections/gallery.css);
+@import url(/style/sections/contact.css);
 @import url(/style/footer.css);
 
 :root {

@@ -18,12 +18,24 @@
 }
 
 @media screen and (min-width: 580px) {
-  .contact-title{
+  .contact-title {
     line-height: 30px;
   }
 
   .contact-text {
     margin-block: 20px;
     font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact {
+    padding-inline: 40px;
   }
 }

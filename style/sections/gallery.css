@@ -31,3 +31,26 @@
     margin-block: 20px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .gallery-text {
+    font-size: 18px;
+  }
+
+  .gallery-list {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .gallery-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gallery-text {
+    margin-block: 35px;
+  }
+}

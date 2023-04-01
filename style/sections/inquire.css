@@ -24,15 +24,47 @@
 }
 
 @media screen and (min-width: 580px) {
-  .inquire{
+  .inquire {
     padding-block: 50px;
   }
   .book-form label {
     font-size: 20px;
   }
 
-  .book-form .field{
+  .book-form .field {
     font-size: 14px;
     padding: 12px;
+  }
+
+  .btn-inquire {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .book-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .book-form .field {
+    padding: 8px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .book-form .field {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .book-form label {
+    font-size: 21px;
+  }
+  
+  .btn-inquire {
+    width: 50%;
+    margin: 25px auto 0 auto;
   }
 }

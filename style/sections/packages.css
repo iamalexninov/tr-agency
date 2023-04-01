@@ -110,3 +110,76 @@
     margin: 0 auto;
   }
 }
+
+@media screen and (min-width: 768px) {
+  .packages .package-text {
+    font-size: 18px;
+  }
+
+  .card-package-content h3 {
+    font-size: 22px;
+  }
+
+  .card-package-content .card-package-text {
+    font-size: 16px;
+    margin-block: 25px;
+  }
+
+  .card-package-content .card-list {
+    width: 65%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .item-box ion-icon {
+    font-size: 20px;
+  }
+
+  .item-box .item-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .package-item .package-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-inline: 40px;
+  }
+
+  .card-banner img {
+    border-radius: 15px 0 0 15px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-package-content {
+    padding: 30px;
+  }
+
+  .card-price {
+    border-radius: 0 15px 15px 0;
+    padding: 30px;
+  }
+
+  .price {
+    margin-block: 25px;
+  }
+
+  .btn-review {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container .package-text {
+    margin-block: 35px;
+  }
+
+  .card-package-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

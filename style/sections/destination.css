@@ -50,13 +50,13 @@
   color: var(--gray);
 }
 
-@media (min-width: 580px) {
+@media screen and (min-width: 580px) {
   .destination {
     padding-block: 50px;
     text-align: center;
   }
 
-  .destination .popular-text{
+  .destination .popular-text {
     font-size: 16px;
     margin-block: 20px;
   }
@@ -75,4 +75,72 @@
     min-height: 350px;
     border-radius: 15px;
   }
+}
+
+@media screen and (min-width: 768px) {
+  .destination .popular-text {
+    font-size: 18px;
+    margin-block: 25px;
+  }
+
+  .card-popular-content {
+    top: 80%;
+  }
+
+  .card-country {
+    font-size: 18px;
+  }
+
+  .card-town {
+    font-size: 22px;
+    margin-block: 15px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .popular-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+
+  .popular-card img {
+    width: 90%;
+  }
+
+  .card-popular-content {
+    top: 250px;
+    width: 80%;
+    opacity: 0.8;
+  }
+
+  .card-popular-content span {
+    font-size: 12px;
+  }
+
+  .card-popular-content .card-town {
+    font-size: 16px;
+    margin-block: 5px;
+  }
+
+  .card-popular-content .card-text {
+    font-size: 14px;
+    color: var(--black);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .destination .popular-text {
+    margin-block: 35px;
+  }
+
+  .card-popular-content {
+    top: 300px;
+  }
+
+  
 }

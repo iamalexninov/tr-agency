@@ -48,6 +48,10 @@
     gap: 10px;
   }
 
+  .book-form label {
+    font-size: 16px;
+  }
+
   .book-form .field {
     padding: 8px;
   }

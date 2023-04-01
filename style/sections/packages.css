@@ -148,6 +148,10 @@
     padding-inline: 40px;
   }
 
+  .card-banner {
+    width: 60%;
+  }
+
   .card-banner img {
     border-radius: 15px 0 0 15px;
     height: 100%;
@@ -173,8 +177,25 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .packages h2 {
+    margin-top: 85px;
+  }
+
   .container .package-text {
     margin-block: 35px;
+  }
+
+  .package-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-banner {
+    width: 30%;
+  }
+
+  .card-reviews {
+    width: 250px;
   }
 
   .card-package-content {

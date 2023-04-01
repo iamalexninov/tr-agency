@@ -1,620 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Onin Travel Agency</title>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body id="top">
-    <header class="header" data-header>
-      <div class="overlay" data-overlay></div>
-      <div class="header-top">
-        <div class="container">
-          <div class="header-btn-group">
-            <button class="search-btn" aria-label="Search" data-nav-search-btn>
-              <ion-icon name="search"></ion-icon>
-            </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Onin Travel Agency</title>
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
 
-            <button
-              class="nav-open-btn"
-              aria-label="Open Menu"
-              data-nav-open-btn
-            >
-              <ion-icon name="menu-outline"></ion-icon>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div class="header-bottom">
-        <div class="container">
-          <ul class="social-list">
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-tiktok"></ion-icon>
-              </a>
-            </li>
-          </ul>
-
-          <nav class="navbar" data-navbar>
-            <div class="navbar-top">
-              <a href="#" class="logo">
-                <img src="/images/logo-blue.svg" alt="Logo" />
-              </a>
-
-              <button
-                class="nav-close-btn"
-                aria-label="Close Menu"
-                data-nav-close-btn
-              >
-                <ion-icon name="close"></ion-icon>
-              </button>
-            </div>
-
-            <ul class="navbar-list">
-              <li>
-                <a href="#" class="navbar-link" data-nav-link> home </a>
-              </li>
-              <li>
-                <a href="#destination" class="navbar-link" data-nav-link>
-                  destination
-                </a>
-              </li>
-              <li>
-                <a href="#packages" class="navbar-link" data-nav-link>
-                  packages
-                </a>
-              </li>
-              <li>
-                <a href="#gallery" class="navbar-link" data-nav-link>
-                  gallery
-                </a>
-              </li>
-              <li>
-                <a href="#contact" class="navbar-link" data-nav-link>
-                  contact us
-                </a>
-              </li>
-            </ul>
-          </nav>
-
-          <div class="btn-book">
-            <button class="btn btn-primary">Book Now</button>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main>
-      <section id="home" class="hero">
-        <div class="container">
-          <h2 class="h1 hero-title">Explore the world</h2>
-
-          <p class="hero-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
-            magnam! Aliquid modi facere culpa expedita possimus nobis, non
-            doloremque vel.
-          </p>
-          <button class="btn btn-primary">Learn more</button>
-        </div>
-      </section>
-
-      <section id="inquire" class="inquire">
-        <div class="container">
-          <form class="book-form">
-            <div class="book-item">
-              <label for="destination">Search Destination</label>
-              <input
-                class="field"
-                type="text"
-                id="destination"
-                placeholder="Enter Destination"
-              />
-            </div>
-            <div class="book-item">
-              <label for="pax-number">Pax Number</label>
-              <input
-                class="field"
-                type="text"
-                id="pax-number"
-                placeholder="No.of People"
-              />
-            </div>
-            <div class="book-item">
-              <label for="check-in">CheckIn Date</label>
-              <input class="field" type="date" id="check-in" />
-            </div>
-            <div class="book-item">
-              <label for="check-out">CheckOut Date</label>
-              <input class="field" type="date" id="check-out" />
-            </div>
-          </form>
-          <button class="btn btn-secondary btn-inquire">inquire now</button>
-        </div>
-      </section>
-
-      <section id="destination" class="destination">
-        <div class="container">
-          <h2 class="h2">popular destinations</h2>
-          <p class="popular-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            quas incidunt est amet nemo, perferendis illum distinctio.
-          </p>
-          <ul class="popular-list">
-            <li>
-              <div class="popular-card">
-                <img
-                  class="card-img"
-                  src="/images/popular-1.jpg"
-                  alt="San Miguel"
-                />
-                <div class="card-popular-content">
-                  <span class="card-country">italy</span>
-                  <h3 class="h3 card-town">san miguel</h3>
-                  <p class="card-text">
-                    The town is located on the Murge Plateau and is built
-                    primarily on agriculture.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="popular-card">
-                <img
-                  class="card-img"
-                  src="/images/popular-2.jpg"
-                  alt="Burj Khalifa"
-                />
-                <div class="card-popular-content">
-                  <span class="card-country">dubai</span>
-                  <h3 class="h3 card-town">burj khalifa</h3>
-                  <p class="card-text">
-                    The town is located on the Murge Plateau and is built
-                    primarily on agriculture.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="popular-card">
-                <img
-                  class="card-img"
-                  src="/images/popular-3.jpg"
-                  alt="San Miguel"
-                />
-                <div class="card-popular-content">
-                  <span class="card-country">japan</span>
-                  <h3 class="h3 card-town">san miguel</h3>
-                  <p class="card-text">
-                    The town is located on the Murge Plateau and is built
-                    primarily on agriculture.
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-
-          <button class="btn btn-primary">More Destinations</button>
-        </div>
-      </section>
-
-      <section id="packages" class="packages">
-        <div class="container">
-          <h2 class="h2">checkout our packages</h2>
-          <p class="package-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            quas incidunt est amet nemo, perferendis illum distinctio.
-          </p>
-
-          <ul class="package-list">
-            <li class="package-item">
-              <div class="package-card">
-                <div class="card-banner">
-                  <img src="/images/packege-1.jpg" alt="" />
-                </div>
-                <div class="card-package-content">
-                  <h3 class="h3">experience the great holiday on beach</h3>
-                  <p class="card-package-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequatur laudantium saepe harum nostrum tenetur deserunt
-                    ea.
-                  </p>
-                  <ul class="card-list">
-                    <li class="card-list-item">
-                      <div class="item-box">
-                        <ion-icon
-                          name="time"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="time"
-                        ></ion-icon>
-                        <p class="item-text">5D/4N</p>
-                      </div>
-                    </li>
-                    <li class="card-list-item">
-                      <div class="item-box">
-                        <ion-icon
-                          name="people"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="time"
-                        ></ion-icon>
-                        <p class="item-text">pax: 8</p>
-                      </div>
-                    </li>
-                    <li class="card-list-item">
-                      <div class="item-box">
-                        <ion-icon
-                          name="location"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="time"
-                        ></ion-icon>
-                        <p class="item-text">Maldives</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="card-price">
-                  <div class="card-reviews">
-                    <div class="wrapper">
-                      <p class="card-review-text">(20 reviews)</p>
-                      <div class="card-review-rating">
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                      </div>
-                    </div>
-                    <p class="price">
-                      $650 <span class="person">/ per person</span>
-                    </p>
-                    <button class="btn btn-secondary btn-review">
-                      book now
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="package-item">
-              <div class="package-card">
-                <div class="card-banner">
-                  <img src="/images/packege-1.jpg" alt="" />
-                </div>
-                <div class="card-package-content">
-                  <h3 class="h3">experience the great holiday on beach</h3>
-                  <p class="card-package-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequatur laudantium saepe harum nostrum tenetur deserunt
-                    ea.
-                  </p>
-                  <ul class="card-list">
-                    <li class="card-list-item">
-                      <div class="item-box">
-                        <ion-icon
-                          name="time"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="time"
-                        ></ion-icon>
-                        <p class="item-text">5D/4N</p>
-                      </div>
-                    </li>
-                    <li class="card-list-item">
-                      <div class="item-box">
-                        <ion-icon
-                          name="people"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="time"
-                        ></ion-icon>
-                        <p class="item-text">pax: 8</p>
-                      </div>
-                    </li>
-                    <li class="card-list-item">
-                      <div class="item-box">
-                        <ion-icon
-                          name="location"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="time"
-                        ></ion-icon>
-                        <p class="item-text">Maldives</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="card-price">
-                  <div class="card-reviews">
-                    <div class="wrapper">
-                      <p class="card-review-text">(20 reviews)</p>
-                      <div class="card-review-rating">
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                      </div>
-                    </div>
-                    <p class="price">
-                      $650 <span class="person">/ per person</span>
-                    </p>
-                    <button class="btn btn-secondary btn-review">
-                      book now
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="package-item">
-              <div class="package-card">
-                <div class="card-banner">
-                  <img src="/images/packege-1.jpg" alt="" />
-                </div>
-                <div class="card-package-content">
-                  <h3 class="h3">experience the great holiday on beach</h3>
-                  <p class="card-package-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Consequatur laudantium saepe harum nostrum tenetur deserunt
-                    ea.
-                  </p>
-                  <ul class="card-list">
-                    <li class="card-list-item">
-                      <div class="item-box">
-                        <ion-icon
-                          name="time"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="time"
-                        ></ion-icon>
-                        <p class="item-text">5D/4N</p>
-                      </div>
-                    </li>
-                    <li class="card-list-item">
-                      <div class="item-box">
-                        <ion-icon
-                          name="people"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="time"
-                        ></ion-icon>
-                        <p class="item-text">pax: 8</p>
-                      </div>
-                    </li>
-                    <li class="card-list-item">
-                      <div class="item-box">
-                        <ion-icon
-                          name="location"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="time"
-                        ></ion-icon>
-                        <p class="item-text">Maldives</p>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-                <div class="card-price">
-                  <div class="card-reviews">
-                    <div class="wrapper">
-                      <p class="card-review-text">(20 reviews)</p>
-                      <div class="card-review-rating">
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                        <ion-icon
-                          name="star"
-                          role="img"
-                          class="md hydrated"
-                          aria-label="star"
-                        ></ion-icon>
-                      </div>
-                    </div>
-                    <p class="price">
-                      $650 <span class="person">/ per person</span>
-                    </p>
-                    <button class="btn btn-secondary btn-review">
-                      book now
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-
-          <button class="btn btn-primary">view all packages</button>
-        </div>
-      </section>
-
-      <section id="gallery" class="gallery">
-        <div class="container">
-          <h2 class="h2 gallery-title">photo's from travellers</h2>
-          <p class="gallery-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-            cupiditate adipisci non, praesentium nihil perspiciatis, possimus
-            asperiores.
-          </p>
-          <ul class="gallery-list">
-            <li class="gallery-item">
-              <img src="/images/gallery-1.jpg" alt="Gallery 1" />
-            </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-2.jpg" alt="Gallery 2" />
-            </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-3.jpg" alt="Gallery 3" />
-            </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-4.jpg" alt="Gallery 4" />
-            </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-5.jpg" alt="Gallery 5" />
-            </li>
-            <li class="gallery-item">
-              <img src="/images/gallery-5.jpg" alt="Gallery 5" />
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section id="contact" class="contact">
-        <div class="container">
-          <h2 class="h2 contact-title">
-            reade for unforgettable travel. remember us!
-          </h2>
-          <p class="contact-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Dignissimos suscipit, voluptatem accusantium natus eum impedit
-            incidunt deserunt quam sequi amet minus placeat neque debitis ut
-            ullam eos, voluptate eaque itaque!
-          </p>
-          <button class="btn btn-secondary btn-contact">contact us!</button>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
+<body id="top">
+  <header class="header" data-header>
+    <div class="overlay" data-overlay></div>
+    <div class="header-top">
       <div class="container">
-        <div class="footer-text">
-          <img src="/images/logo-blue.svg" alt="Logo" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel iure
-            modi vero praesentium quisquam qui ipsam! Provident quam repellat
-            praesentium.
-          </p>
-        </div>
-        <div class="footer-contact">
-          <p class="footer-title">Contact Us</p>
-          <div class="line"></div>
-          <p class="contact-content">Feel free to contact and reach us!</p>
-          <ul class="footer-list">
-            <li class="contact-element">
-              <ion-icon
-                name="call-outline"
-                role="img"
-                class="md hydrated"
-                aria-label="call outline"
-              ></ion-icon>
-              <a href="tel:+359 8693 598 611">+359 8693 598 611</a>
-            </li>
-            <li class="contact-element">
-              <ion-icon
-                name="mail-outline"
-                role="img"
-                class="md hydrated"
-                aria-label="mail outline"
-              ></ion-icon>
-              <a href="mailto:info@onin.com">info@onin.com</a>
-            </li>
-            <li class="contact-element">
-              <ion-icon
-                name="location-outline"
-                role="img"
-                class="md hydrated"
-                aria-label="location outline"
-              ></ion-icon>
-              <a href="">Pazardjik Bul. Bulgaria, №8</a>
-            </li>
-          </ul>
-        </div>
-        <div class="subscribe">
-          <p>Subscribe our newsletter for more update & news!</p>
-          <input type="text" name="Subscribe" placeholder="Enter your email" />
-          <button class="btn btn-secondary">Subscribe</button>
+        <div class="header-btn-group">
+          <button class="search-btn" aria-label="Search" data-nav-search-btn>
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
         </div>
       </div>
-    </footer>
+    </div>
 
-    <!-- add go-to-top button -->
-    <a href="#top" class="go-top" data-go-top>
-      <ion-icon name="chevron-up-outline"></ion-icon>
-    </a>
+    <div class="header-bottom">
+      <div class="container">
+        <ul class="social-list">
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
+        </ul>
 
-    <script src="/js/script.js"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img src="/images/onin-logo.png" alt="Logo" />
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link" data-nav-link> home </a>
+            </li>
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>
+                destination
+              </a>
+            </li>
+            <li>
+              <a href="#packages" class="navbar-link" data-nav-link>
+                packages
+              </a>
+            </li>
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>
+                gallery
+              </a>
+            </li>
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>
+                contact us
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="btn-book">
+          <button class="btn btn-primary">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2 class="h1 hero-title">Explore the world</h2>
+
+        <p class="hero-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+          magnam! Aliquid modi facere culpa expedita possimus nobis, non
+          doloremque vel.
+        </p>
+        <button class="btn btn-primary">Learn more</button>
+      </div>
+    </section>
+
+    <section id="inquire" class="inquire">
+      <div class="container">
+        <form class="book-form">
+          <div class="book-item">
+            <label for="destination">Search Destination</label>
+            <input class="field" type="text" id="destination" placeholder="Enter Destination" />
+          </div>
+          <div class="book-item">
+            <label for="pax-number">Pax Number</label>
+            <input class="field" type="text" id="pax-number" placeholder="No.of People" />
+          </div>
+          <div class="book-item">
+            <label for="check-in">CheckIn Date</label>
+            <input class="field" type="date" id="check-in" />
+          </div>
+          <div class="book-item">
+            <label for="check-out">CheckOut Date</label>
+            <input class="field" type="date" id="check-out" />
+          </div>
+        </form>
+        <button class="btn btn-secondary btn-inquire">inquire now</button>
+      </div>
+    </section>
+
+    <section id="destination" class="destination">
+      <div class="container">
+        <h2 class="h2">popular destinations</h2>
+        <p class="popular-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          quas incidunt est amet nemo, perferendis illum distinctio.
+        </p>
+        <ul class="popular-list">
+          <li>
+            <div class="popular-card">
+              <img class="card-img" src="/images/popular-pic1.jpg" alt="Paris" />
+              <div class="card-popular-content">
+                <span class="card-country">paris</span>
+                <h3 class="h3 card-town">Eiffel Tower</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="popular-card">
+              <img class="card-img" src="/images/popular-pic2.jpg" alt="Burj Khalifa" />
+              <div class="card-popular-content">
+                <span class="card-country">london</span>
+                <h3 class="h3 card-town">Tower Bridge</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="popular-card">
+              <img class="card-img" src="/images/popular-pic3.jpg" alt="San Miguel" />
+              <div class="card-popular-content">
+                <span class="card-country">dubai</span>
+                <h3 class="h3 card-town">Burj Khalifa</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <button class="btn btn-primary">More Destinations</button>
+      </div>
+    </section>
+
+    <section id="packages" class="packages">
+      <div class="container">
+        <h2 class="h2">checkout our packages</h2>
+        <p class="package-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          quas incidunt est amet nemo, perferendis illum distinctio.
+        </p>
+
+        <ul class="package-list">
+          <li class="package-item">
+            <div class="package-card">
+              <div class="card-banner">
+                <img src="/images/package-pic1.jpg" alt="" />
+              </div>
+              <div class="card-package-content">
+                <h3 class="h3">experience the great holiday on beach</h3>
+                <p class="card-package-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur laudantium saepe harum nostrum tenetur deserunt
+                  ea.
+                </p>
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <div class="item-box">
+                      <ion-icon name="time" role="img" class="md hydrated" aria-label="time"></ion-icon>
+                      <p class="item-text">5D/4N</p>
+                    </div>
+                  </li>
+                  <li class="card-list-item">
+                    <div class="item-box">
+                      <ion-icon name="people" role="img" class="md hydrated" aria-label="time"></ion-icon>
+                      <p class="item-text">pax: 8</p>
+                    </div>
+                  </li>
+                  <li class="card-list-item">
+                    <div class="item-box">
+                      <ion-icon name="location" role="img" class="md hydrated" aria-label="time"></ion-icon>
+                      <p class="item-text">Maldives</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-price">
+                <div class="card-reviews">
+                  <div class="wrapper">
+                    <p class="card-review-text">(20 reviews)</p>
+                    <div class="card-review-rating">
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    </div>
+                  </div>
+                  <p class="price">
+                    $650 <span class="person">/ per person</span>
+                  </p>
+                  <button class="btn btn-secondary btn-review">
+                    book now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="package-item">
+            <div class="package-card">
+              <div class="card-banner">
+                <img src="/images/package-pic2.jpg" alt="" />
+              </div>
+              <div class="card-package-content">
+                <h3 class="h3">experience the great holiday on beach</h3>
+                <p class="card-package-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur laudantium saepe harum nostrum tenetur deserunt
+                  ea.
+                </p>
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <div class="item-box">
+                      <ion-icon name="time" role="img" class="md hydrated" aria-label="time"></ion-icon>
+                      <p class="item-text">6D/4N</p>
+                    </div>
+                  </li>
+                  <li class="card-list-item">
+                    <div class="item-box">
+                      <ion-icon name="people" role="img" class="md hydrated" aria-label="time"></ion-icon>
+                      <p class="item-text">pax: 6</p>
+                    </div>
+                  </li>
+                  <li class="card-list-item">
+                    <div class="item-box">
+                      <ion-icon name="location" role="img" class="md hydrated" aria-label="time"></ion-icon>
+                      <p class="item-text">Domenicane Republic</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-price">
+                <div class="card-reviews">
+                  <div class="wrapper">
+                    <p class="card-review-text">(15 reviews)</p>
+                    <div class="card-review-rating">
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    </div>
+                  </div>
+                  <p class="price">
+                    $750 <span class="person">/ per person</span>
+                  </p>
+                  <button class="btn btn-secondary btn-review">
+                    book now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="package-item">
+            <div class="package-card">
+              <div class="card-banner">
+                <img src="/images/package-pic3.jpg" alt="" />
+              </div>
+              <div class="card-package-content">
+                <h3 class="h3">experience the great holiday on beach</h3>
+                <p class="card-package-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Consequatur laudantium saepe harum nostrum tenetur deserunt
+                  ea.
+                </p>
+                <ul class="card-list">
+                  <li class="card-list-item">
+                    <div class="item-box">
+                      <ion-icon name="time" role="img" class="md hydrated" aria-label="time"></ion-icon>
+                      <p class="item-text">7D/5N</p>
+                    </div>
+                  </li>
+                  <li class="card-list-item">
+                    <div class="item-box">
+                      <ion-icon name="people" role="img" class="md hydrated" aria-label="time"></ion-icon>
+                      <p class="item-text">pax: 6</p>
+                    </div>
+                  </li>
+                  <li class="card-list-item">
+                    <div class="item-box">
+                      <ion-icon name="location" role="img" class="md hydrated" aria-label="time"></ion-icon>
+                      <p class="item-text">Dubai</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-price">
+                <div class="card-reviews">
+                  <div class="wrapper">
+                    <p class="card-review-text">(10 reviews)</p>
+                    <div class="card-review-rating">
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                      <ion-icon name="star" role="img" class="md hydrated" aria-label="star"></ion-icon>
+                    </div>
+                  </div>
+                  <p class="price">
+                    $550 <span class="person">/ per person</span>
+                  </p>
+                  <button class="btn btn-secondary btn-review">
+                    book now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <button class="btn btn-primary">view all packages</button>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <h2 class="h2 gallery-title">photo's from travellers</h2>
+        <p class="gallery-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+          cupiditate adipisci non, praesentium nihil perspiciatis, possimus
+          asperiores.
+        </p>
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <img src="/images/gallery-pic1.jpg" alt="Gallery 1" />
+          </li>
+          <li class="gallery-item">
+            <img src="/images/gallery-pic2.jpg" alt="Gallery 2" />
+          </li>
+          <li class="gallery-item">
+            <img src="/images/gallery-pic3.jpg" alt="Gallery 3" />
+          </li>
+          <li class="gallery-item">
+            <img src="/images/gallery-pic4.jpg" alt="Gallery 4" />
+          </li>
+          <li class="gallery-item">
+            <img src="/images/gallery-pic5.jpg" alt="Gallery 5" />
+          </li>
+          <li class="gallery-item">
+            <img src="/images/gallery-pic6.jpg" alt="Gallery 5" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="h2 contact-title">
+          reade for unforgettable travel. remember us!
+        </h2>
+        <p class="contact-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Dignissimos suscipit, voluptatem accusantium natus eum impedit
+          incidunt deserunt quam sequi amet minus placeat neque debitis ut
+          ullam eos, voluptate eaque itaque!
+        </p>
+        <button class="btn btn-secondary btn-contact">contact us!</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-text">
+        <img src="/images/onin-blue-logo.png" alt="Logo" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel iure
+          modi vero praesentium quisquam qui ipsam! Provident quam repellat
+          praesentium.
+        </p>
+      </div>
+      <div class="footer-contact">
+        <p class="footer-title">Contact Us</p>
+        <div class="line"></div>
+        <p class="contact-content">Feel free to contact and reach us!</p>
+        <ul class="footer-list">
+          <li class="contact-element">
+            <ion-icon name="call-outline" role="img" class="md hydrated" aria-label="call outline"></ion-icon>
+            <a href="tel:+359 8693 598 611">+359 8693 598 611</a>
+          </li>
+          <li class="contact-element">
+            <ion-icon name="mail-outline" role="img" class="md hydrated" aria-label="mail outline"></ion-icon>
+            <a href="mailto:info@onin.com">info@onin.com</a>
+          </li>
+          <li class="contact-element">
+            <ion-icon name="location-outline" role="img" class="md hydrated" aria-label="location outline"></ion-icon>
+            <a href="">Pazardjik Bul. Bulgaria, №8</a>
+          </li>
+        </ul>
+      </div>
+      <div class="subscribe">
+        <p>Subscribe our newsletter for more update & news!</p>
+        <input type="text" name="Subscribe" placeholder="Enter your email" />
+        <button class="btn btn-secondary">Subscribe</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- add go-to-top button -->
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+  <script src="/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>

@@ -23,6 +23,7 @@
 }
 
 .card-popular-content {
+  opacity: 0.8;
   position: absolute;
   top: 75%;
   left: 50%;
@@ -84,7 +85,7 @@
   }
 
   .card-popular-content {
-    top: 80%;
+    top: 70%;
   }
 
   .card-country {
@@ -115,7 +116,6 @@
   .card-popular-content {
     top: 250px;
     width: 80%;
-    opacity: 0.8;
   }
 
   .card-popular-content span {
@@ -133,14 +133,21 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
+  .destination h2{
+    margin-top: 85px;
+  }
+
+
   .destination .popular-text {
     margin-block: 35px;
   }
 
   .card-popular-content {
-    top: 300px;
+    top: 400px;
   }
 
-  
+  .card-img{
+    min-height: 500px;
+  }
 }
